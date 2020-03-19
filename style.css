@@ -75,7 +75,6 @@ header{
   flex-direction: column;
 }
 
-/*************************/
 
 /*IMAGES CARTES MATERIEL*/
 
@@ -86,7 +85,6 @@ header{
     margin-left: -60px;
     margin-bottom: 10px;
 }
-
 
 .cardprdt1 img{
     width: 150px;
@@ -108,7 +106,6 @@ header{
     margin-left: 60px;
     margin-top: -30px;
     margin-bottom: 30px;
-
 }
 
 .cardprdt4 img{
@@ -132,7 +129,6 @@ header{
     margin-bottom: 30px;
 }
 
-/************************/
 
 main h3, main h2{
     text-align: center;
@@ -140,15 +136,13 @@ main h3, main h2{
 }
 
 
-/*   */
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Style pour titres toutes pages */
+/* Style for titles on all pages*/
 
 .card-text {
     padding-bottom : 20px;
@@ -177,7 +171,7 @@ h3 {
     text-align: center;
 }
 
-/* CSS spécifique page grimperEnsemble.html */
+/* CSS for grimperEnsemble.html */
 
 .sectionForm {
     display: flex;
@@ -226,7 +220,6 @@ h3 {
     text-align: left;
 }
 
-/* fin CSS Jeff */
 
 /* debut css nico*/
 
@@ -315,9 +308,7 @@ h3 {
     height: 260px;
 }
 
-/*fin css nico */
-
-    /* début css amélie */
+/* css amélie */
 
 .cardHomePage, .sectionCards {
     display: flex;
@@ -328,7 +319,6 @@ h3 {
 
 .cardHomePage div, .sectionCards div {
     margin: 10px;
-
 }
 
 #banniere {
@@ -419,30 +409,6 @@ footer {
     min-width: 20%;
 }
 
-/* 
-.btn {
-    color: white;
-}
- */
-
-
-/*.intro_bloc_voie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    }
-
-
-.intro_para {
-    text-align: center;
-    width: 60%;
-    padding:5px 10px;
-    border:2px solid black;
-    border-radius: 10px;
-
-}*/
-
 
 .cardSalles  {
     display: flex;
@@ -498,10 +464,6 @@ footer {
     text-align: center;
 }
 
-/* .lien_google_climbup a {
-    padding: 50px; 
-
-} */
 
 .lien_google_climbup  {
     margin: auto;
@@ -541,19 +503,6 @@ footer {
     border:2px solid #f7f7f7 
 }
 
-
-
-/* 
-iframe {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-} */
-
-/*.listing_block {
-    display: flex;
-}*/
 
 .ul_block {
     display: flex;
