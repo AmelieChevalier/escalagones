@@ -1,10 +1,8 @@
+/* Global CSS for all pages */
+
 *{
     margin: 0;
     padding: 0;
-}
-
-header{
-    font-family: 'Fjalla One', sans-serif;
 }
 
 .texteAccueil, .texteInterieur, .texteExterieur, .titresEnsemble, .sstitre {
@@ -14,9 +12,31 @@ header{
     margin: 50px auto;
 }
 
+ /* We want to hide this p in mobile version, and show it on desktop screen */
 .texteAccueil p, .texteInterieur p, .texteExterieur p{
     display: none;
 }
+
+
+
+/* CSS for header */
+
+header{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* END CSS for header */
+
+/* CSS for footer */
+
+/* END CSS for footer */
+
+/* CSS home page index.html*/
+
+/* END CSS home page index.html*/
+
+/* CSS interieur.html */
+
 
 .liste_salles {
     margin-bottom: 50px;
@@ -25,6 +45,28 @@ header{
 .liste_salles a {
     color: #5cb85c
 }
+
+
+
+/* END CSS interieur.html */
+
+/* CSS exterieur.html */
+
+/* END CSS exterieur.html */
+
+/* CSS grimperEnsemble.html */
+
+/* END CSS grimperEnsemble.html */
+
+/* CSS materiel.html */
+
+/* END CSS materiel.html */
+
+
+
+
+
+
 
 .indooras {
     display: flex;
@@ -53,94 +95,7 @@ header{
     font-weight: bold;   
 }
 
-/* BODY CARTES MATERIEL*/
 
-.seprate-line {
-	width: 20px; height: 3px; background: white;
-}
-.g-card {
-  margin: auto;
-  top: 100px;
-  width: 320px;
-  min-height: 400px;
-  overflow: hidden;
-  background: linear-gradient(135deg, #02aab0, #00cdac);
-  padding: 60px 30px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-
-
-/*IMAGES CARTES MATERIEL*/
-
-.cardprdt0 img{
-    width: 300px;
-    height: auto;
-    margin-top: -110px;
-    margin-left: -60px;
-    margin-bottom: 10px;
-}
-
-.cardprdt1 img{
-    width: 150px;
-    height: auto;
-    margin-top: -30px;
-    margin-left: 60px;
-    margin-bottom: 30px;
-}
-
-.cardprdt2 img{
-    width: 150px;
-    margin-left: 50px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.cardprdt3 img{
-    width: 150px;
-    margin-left: 60px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.cardprdt4 img{
-    width: 150px;
-    margin-left: 70px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.cardprdt5 img{
-    width: 150px;
-    margin-top: -40px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-
-.cardprdt6 img{
-    width: 250px;
-    margin-top: -80px;
-    margin-left: -30px;
-    margin-bottom: 30px;
-}
-
-
-main h3, main h2{
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
 
 /* Style for titles on all pages*/
 
@@ -385,7 +340,6 @@ thead{
 /* début css justine */
 footer {
     background-color: #292b2c;
-    margin-top: auto;
     width: 100%;
 }
 
