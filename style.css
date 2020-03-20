@@ -372,16 +372,13 @@ table{
     margin-top: 50px;
 }
 
-.table-responsive { 
+.table-responsive{ 
     width: 80%;
     margin: auto;
 }
-thead {
+thead{
     align-items: center;
 }
-
-
-
 
 /* fin css amélie */
 
