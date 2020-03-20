@@ -471,25 +471,7 @@ footer {
     list-style-type: none;
 }
 
-#mroc{
-    height: 400px;
-}
-#verticalart{
-    height: 400px;
-}
-#climbup {
-    height: 400px; 
-}
-#holdup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#arbresle { 
+#mroc, #verticalart, #climbup, #holdup, #arbresle{
     height: 400px;
 }
 
