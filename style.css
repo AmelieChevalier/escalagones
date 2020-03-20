@@ -10,6 +10,7 @@
     padding: 20px;
     width: 80%;
     margin: 50px auto;
+    
 }
 
  /* We want to hide this p in mobile version, and show it on desktop screen */
@@ -17,7 +18,34 @@
     display: none;
 }
 
+/* Style for titles on all pages*/
 
+.card-text {
+    padding-bottom : 20px;
+}
+
+
+h2 {
+    color : white;
+    background-color: #B88A5C;
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+    padding: 10px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8vw;
+    letter-spacing: 0.1em;
+
+}
+
+h3 {
+    color : #292b2c;
+    padding : 10px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
 
 /* CSS for header */
 
@@ -56,17 +84,23 @@ header{
 
 /* CSS grimperEnsemble.html */
 
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    width : 100%;
+    margin-bottom: 50px;
+}
+.form-group {
+    width : 80%;
+    padding : 10px;
+}
+
+
+
 /* END CSS grimperEnsemble.html */
 
 /* CSS materiel.html */
-
-/* END CSS materiel.html */
-
-
-
-
-
-
 
 .indooras {
     display: flex;
@@ -95,50 +129,18 @@ header{
     font-weight: bold;   
 }
 
+/* END CSS materiel.html */
 
 
-/* Style for titles on all pages*/
-
-.card-text {
-    padding-bottom : 20px;
-}
 
 
-h2 {
-    color : white;
-    background-color: #B88A5C;
-    font-family: "Segoe UI";
-    text-transform: uppercase;
-    padding: 10px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 8vw;
-    letter-spacing: 0.1em;
 
-}
 
-h3 {
-    color : #292b2c;
-    padding : 10px;
-    font-family: 'Fjalla One', sans-serif;
-    text-align: center;
-}
+
 
 /* CSS for grimperEnsemble.html */
 
-.sectionForm {
-    display: flex;
-    flex-direction: column;
-    align-items : center;
-    width : 100%;
-    margin-bottom: 50px;
-}
-.form-group {
-    width : 80%;
-    padding : 10px;
-}
+
 .card_body{
     position : relative;
 }
