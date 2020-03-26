@@ -5,3 +5,7 @@ $(document).ready(function(){
 
     }); 
 });
+
+function congrats(){
+    alert("Merci pour votre message ! Nous reviendrons vers vous au plus vite !")
+};

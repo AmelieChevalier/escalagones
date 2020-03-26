@@ -8,6 +8,7 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
+
 .texteAccueil, .texteInterieur, .texteExterieur, .titresEnsemble, .sstitre {
     text-align: center;
     padding: 20px;
@@ -696,3 +697,6 @@ thead{
     padding: 30px;
     }
 }
+
+/*************** CSS for JS tests *****************/
+
