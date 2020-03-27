@@ -299,11 +299,11 @@ footer {
      color: black;  
  }
 
- #accordion {
+/*  #accordion {
     width: 80%;
     margin : auto;
     min-width: 20%;
-}
+} */
 
 
 .cardSalles  {
@@ -390,6 +390,51 @@ footer {
 }
 
 
+
+/* CSS for box with hidden content*/
+
+
+pre,
+.message {
+    max-width: 960px;
+}
+
+
+li {margin: 10px}
+
+
+
+.is-large.fab {
+    font-size: 7em;
+}
+
+.is-large.fas {
+    font-size: 5em;
+    margin-left: 0.2em;
+}
+
+.box-header {
+    cursor: pointer;
+    display: flex;
+}
+
+
+
+/** 
+The following manages the collapsed or uncollapsed state of the box body. 
+For the sake of simplicity, I used a fixed height. 
+This could be improved to automatically adapt  to any box content length, here's how : https://css-tricks.com/using-css-transitions-auto-dimensions/
+**/
+
+.box-body {
+    overflow: hidden;
+    height: 450px;
+    transition: height 1s; /** Look here https://developer.mozilla.org/en-US/docs/Web/CSS/transition **/
+}
+
+.box-body.collapsed {
+    height: 0;
+}
 
 /*********** END CSS INTERIEUR ***********/
 
