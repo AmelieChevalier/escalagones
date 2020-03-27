@@ -490,6 +490,10 @@ This could be improved to automatically adapt  to any box content length, here's
     text-align: left;
 }
 
+.titresEnsemble p{
+    font-style: italic;
+}
+
 
 /********** END CSS for grimperEnsemble.html ***********/
 
